@@ -6,7 +6,8 @@
     <type fullname="WetWealth.Characters.CharacterAssetData" preserve="all" />
     <type fullname="WetWealth.Characters.CharacterQuestTalkingButton" preserve="all" />
     <type fullname="WetWealth.City.ButtonLocation" preserve="all" />
-    <type fullname="WetWealth.City.CityMapInterestPoint" preserve="all" />
+    <type fullname="WetWealth.City.CityLocationPoint" preserve="all" />
+    <type fullname="WetWealth.City.CityLocationPointData" preserve="all" />
     <type fullname="WetWealth.City.CityStoryInterestPoint" preserve="all" />
     <type fullname="WetWealth.City.CloseCityButton" preserve="all" />
     <type fullname="WetWealth.City.Shop.CityShopProductsListView" preserve="all" />
@@ -48,7 +49,6 @@
     <type fullname="WetWealth.Map.SpineInterestPoint" preserve="all" />
     <type fullname="WetWealth.Map.TilemapDimmer" preserve="all" />
     <type fullname="WetWealth.Media.MediaAssetData" preserve="all" />
-    <type fullname="WetWealth.NotificationMarkers.MarkerView" preserve="all" />
     <type fullname="WetWealth.Quests.StaticQuestAssetData" preserve="all" />
     <type fullname="WetWealth.SlotMachine.BunnySpineReactionView" preserve="all" />
     <type fullname="WetWealth.SlotMachine.View.Particles.AutoDestroyParticles" preserve="all" />
@@ -57,6 +57,8 @@
     <type fullname="WetWealth.InterestPoints.QuestRequirement" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.Addressable.AssetReferenceAudioClip" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.InterestPoints.ItemRequirement" preserve="nothing" serialized="true" />
+    <type fullname="WetWealth.City.CityLocationPoint/Icons" preserve="nothing" serialized="true" />
+    <type fullname="WetWealth.InterestPoints.CharacterRequirement" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.Addressable.AssetReferenceVideoClip" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.Characters.CharacterInfo" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.Dialogue.DialogueRequirements" preserve="nothing" serialized="true" />
@@ -66,6 +68,9 @@
     <type fullname="WetWealth.Quests.QuestConditions" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.Quests.QuestDialogues" preserve="nothing" serialized="true" />
     <type fullname="WetWealth.Quests.QuestRewards" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Coffee.UIParticle, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Coffee.UIExtensions.UIParticle" preserve="all" />
   </assembly>
   <assembly fullname="spine-unity, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Spine.Unity.AnimationReferenceAsset" preserve="all" />
